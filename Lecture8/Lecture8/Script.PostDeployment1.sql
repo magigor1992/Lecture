@@ -9,7 +9,7 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-DECLARE @texts varchar(30) = 'World Hello'
+DECLARE @texts varchar(30) = 'Hello World'
 
 update dbo.DbVersions 
 set DateEnd = getdate()
