@@ -1,4 +1,6 @@
 ﻿CREATE TABLE [dbo].[DbVersions]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	DvVersion nchar(5) NOT NULL PRIMARY KEY,
+	DateStart datetime not null,
+	DateEnd datetime null
 )
